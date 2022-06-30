@@ -1,9 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-var inputs = new List<Int32>() { 3, 5, 6, 7, 13 }; //{ 1, 2, 3, 5, 6, 7, 11 };
+var inputs = new List<Int32>() { 11,4,6,8,2,3,7 }; //{ 1, 2, 3, 5, 6, 7, 11 };
 List<int> missNumbers = new List<int>();
 //List<int> x = new();
 int index = 0;
 int checkNumber = 0;
+
+inputs.Sort();
 
 do
 {
