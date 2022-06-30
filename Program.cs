@@ -25,5 +25,6 @@ do
     }
 } while (index < inputs.Count - 1);
 
+Console.WriteLine("hello this is missing number");
 missNumbers.ForEach(m => Console.WriteLine(m));
 Console.ReadLine();
