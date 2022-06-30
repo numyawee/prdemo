@@ -25,5 +25,6 @@ do
     }
 } while (index < inputs.Count - 1);
 
+Console.WriteLine("this is test conflict");
 missNumbers.ForEach(m => Console.WriteLine(m));
 Console.ReadLine();
