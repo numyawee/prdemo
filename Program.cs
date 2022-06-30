@@ -26,6 +26,4 @@ do
 } while (index < inputs.Count - 1);
 
 missNumbers.ForEach(m => Console.WriteLine(m));
-
-Console.WriteLine("end");
 Console.ReadLine();
